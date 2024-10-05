@@ -19,6 +19,11 @@ namespace CRUD_C_
             this.apellido = apellido;
             this.direccion = direccion;
         }
-        
-    }
+		
+		public string Informacion()
+		{
+			return $"ID: {id}, Nombre: {nombre} {apellido}, Dirección: {direccion.ToString()}";
+		}
+
+	}
 }

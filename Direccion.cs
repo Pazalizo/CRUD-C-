@@ -15,7 +15,7 @@ namespace CRUD_C_
         private string carrera;
         private string coordenada;
         private string descripcion;
-        public Direccion(string calle, Pais pais, Departamento departamento, Municipio municipio, string carrera, string coordenada, string descripcion)
+        public Direccion(Municipio municipio, Departamento departamento, Pais pais, string calle, string carrera, string coordenada, string descripcion)
         {
             this.calle = calle;
             this.pais = pais;
