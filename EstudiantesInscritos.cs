@@ -15,13 +15,16 @@ namespace CRUD_C_
 			listado = new List<Estudiante>();
 		}
 
-		public void imprimirListado()
+		public void ImprimirListado()
 		{
             foreach (var item in listado)
             {
 				Console.WriteLine(item);
             }
         }
-		public void Adicionar(Estudiante estudiante) => listado.Add(estudiante);
+		public void Adicionar(Estudiante estudiante)
+		{
+			listado.Add(estudiante);
+		}
 	}
 }

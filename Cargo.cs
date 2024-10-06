@@ -20,5 +20,7 @@ namespace CRUD_C_
 		{
 			return "Cargo: " + nombre;
 		}
+
+
 	}
 }
